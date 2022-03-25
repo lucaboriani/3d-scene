@@ -1,0 +1,10 @@
+{
+  "modules": false,
+  "plugins": {
+    "postcss-nested": {},
+    "autoprefixer": {
+      
+      "flexbox": "no-2009"
+    }
+  }
+}
