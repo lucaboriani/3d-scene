@@ -8,8 +8,10 @@ just a proof of concept, nothing special
 
 3d model is a picture of mine, somehow taken from an online photo to 3d converter, don't remember the site but I bet you can find one muche better than mine. 
 
-rexistenz logo: 
+thanx to my bros @rexistenz I have a logo :D  
+
 http://www.rexistenz.org/
+
 https://rexistenz.bandcamp.com/
 
 to try it out simply clone the repo, cd into it and `npm install`
