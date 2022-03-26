@@ -68,12 +68,12 @@ const  init = () => {
   // texture
 
   textureLoader = new THREE.TextureLoader( manager );
-  texture = textureLoader.load( 'textures/uv_grid_opengl.jpg' );
+  //texture = textureLoader.load( 'textures/uv_grid_opengl.jpg' );
 
   // model
   loader = new myObjLoader( manager );
 
-  loader.load( 'luca.obj', function ( obj ) {
+  loader.load( './luca.obj', function ( obj ) {
     messageDisplay.textContent = 'loading object'
     object = obj;
   }, onProgress, onError );
