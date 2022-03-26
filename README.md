@@ -19,3 +19,8 @@ to try it out simply clone the repo, cd into it and `npm install`
 then `npm run dev` and have fun
 
 
+project is hosted at 
+
+[3d scene]( https://3d-scene.pages.dev/)
+
+

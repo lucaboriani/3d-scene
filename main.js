@@ -60,9 +60,17 @@ const  init = () => {
 
   manager.onProgress = function ( item, loaded, total ) {
     messageDisplay.textContent = `item ${item }, ${loaded }, ${ total }`
-    console.log( item, loaded, total );
-    if(loaded === total)
+    let endMsg = false
+    if(loaded === total){
+      endMsg = true
+      messageDisplay.textContent = 'I ended up downloading more than 10 mega :P'
+      setTimeout(() => {
         messageDisplay.parentNode.removeChild(messageDisplay)
+      }, 5000);
+      
+      
+    }
+        
   };
 
   // texture
